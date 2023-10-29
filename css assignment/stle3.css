@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+#one{
+    background-color: forestgreen;
+    color: white;
+}
+#two{
+    background-color: rgb(76, 176, 80);
+    border-color: forestgreen;
+}
+#three{
+    background-color: red;
+    border-color: red;
+}
+#heading{
+    font-family:arial narrow;
+}
+#td1{
+    border: 1px solid black;
+}
+table, tr, td {
+    border-collapse: collapse;
+    border: 1px solid;
+}
+table tr:hover td {
+    color:black;
+     background-color:aquamarine;
+    cursor:pointer;
+}
+ul.navbar {
+    list-style-type:none ;
+    margin: 0;
+    padding: 0px;;
+    background-color:#080808; 
+    overflow: hidden;
+}
+
+
+ul.navbar li {
+    float: left;
+  
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+
+ul.navbar li a:hover {
+    background-color: #555;
+}
+h3{
+    font-style: oblique;
+}
+h4{
+    font-style: normal;
+}
